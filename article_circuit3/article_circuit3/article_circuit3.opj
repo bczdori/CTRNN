@@ -1,0 +1,196 @@
+(ExpressProject "article_circuit3"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "C:\Cadence\SPB_16.6\tools\capture\library\pspice\analog.olb"
+        (DisplayName
+           "C:\Cadence\SPB_16.6\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_16.6\tools\capture\library\pspice\breakout.olb"
+        (DisplayName
+           "C:\Cadence\SPB_16.6\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_16.6\tools\capture\library\pspice\source.olb"
+        (DisplayName
+           "C:\Cadence\SPB_16.6\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_16.6\tools\capture\library\pspice\sourcstm.olb"
+        (DisplayName
+           "C:\Cadence\SPB_16.6\tools\capture\library\pspice\sourcstm.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_16.6\tools\capture\library\pspice\special.olb"
+        (DisplayName
+           "C:\Cadence\SPB_16.6\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "article_circuit3.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File "..\article_circuit2\article_circuit3.olb"
+      (Type "Schematic Library"))
+    (File ".\article_circuit3.olb"
+      (Type "Schematic Library"))
+    (File ".\article_circuit3-pspicefiles\teljes_aramkor\teljes_aramkor.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries")
+    (Folder "Stimulus Files")
+    (Folder "Include Files")
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\article_circuit3-pspicefiles\teljes_aramkor\bias.sim"
+        (DisplayName "teljes_aramkor-bias")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\article_circuit3-pspicefiles\teljes_aramkor\telj_aramkor3.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\article_circuit3-pspicefiles\teljes_aramkor\telj_aramkor3.sim"
+        (DisplayName "teljes_aramkor-telj_aramkor3")
+        (Type "PSpice Profile"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (s_cella_11
+      (FullPartName "s_cella_11.Normal")
+      (LibraryName
+         "C:\USERS\PUBLIC\BABDO\ORCAD_PROJECTS\ARTICLE_CIRCUIT3\ARTICLE_CIRCUIT3.OLB")
+      (DeviceIndex "0"))
+    (s_cella_10
+      (FullPartName "s_cella_10.Normal")
+      (LibraryName
+         "C:\USERS\PUBLIC\BABDO\ORCAD_PROJECTS\ARTICLE_CIRCUIT3\ARTICLE_CIRCUIT3.OLB")
+      (DeviceIndex "0"))
+    (s_cella_8
+      (FullPartName "s_cella_8.Normal")
+      (LibraryName
+         "C:\USERS\PUBLIC\BABDO\ORCAD_PROJECTS\ARTICLE_CIRCUIT3\ARTICLE_CIRCUIT3.OLB")
+      (DeviceIndex "0"))
+    (s_cella_7
+      (FullPartName "s_cella_7.Normal")
+      (LibraryName
+         "C:\USERS\PUBLIC\BABDO\ORCAD_PROJECTS\ARTICLE_CIRCUIT3\ARTICLE_CIRCUIT3.OLB")
+      (DeviceIndex "0"))
+    (a_cella
+      (FullPartName "a_cella.Normal")
+      (LibraryName
+         "C:\USERS\PUBLIC\BABDO\ORCAD_PROJECTS\ARTICLE_CIRCUIT3\ARTICLE_CIRCUIT3.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "LIBRARY\PSPICE")
+  (MPSSessionName "VirVa")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Public\babdo\save\article_circuit3\article_circuit3.dsn")
+      (Path "Design Resources"
+         "C:\Users\Public\babdo\save\article_circuit3\article_circuit3.dsn"
+         "teljes_aramkor")
+      (Path "Design Resources"
+         "C:\Users\Public\babdo\save\article_circuit3\article_circuit3.dsn"
+         "a_cella")
+      (Path "Design Resources"
+         "C:\Users\Public\babdo\save\article_circuit3\article_circuit3.dsn"
+         "s_cella_10")
+      (Path "Design Resources"
+         "C:\Users\Public\babdo\save\article_circuit3\article_circuit3.dsn"
+         "s_cella_11")
+      (Path "Design Resources"
+         "C:\Users\Public\babdo\save\article_circuit3\article_circuit3.dsn"
+         "s_cella_7")
+      (Path "Design Resources"
+         "C:\Users\Public\babdo\save\article_circuit3\article_circuit3.dsn"
+         "s_cella_8")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Users\Public\babdo\save\article_circuit3\article_circuit3.dsn"
+         "s_cella_8" "s_cella_8_page"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 298"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1260 52 419")
+        (Scroll "-160 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\PUBLIC\BABDO\SAVE\ARTICLE_CIRCUIT3\ARTICLE_CIRCUIT3.DSN")
+      (Schematic "teljes_aramkor")
+      (Page "teljes_aramkor_page"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1338 130 497")
+        (Scroll "574 86")
+        (Zoom "200"))
+      (Path "C:\USERS\PUBLIC\BABDO\SAVE\ARTICLE_CIRCUIT3\ARTICLE_CIRCUIT3.DSN")
+      (Schematic "a_cella")
+      (Page "a_cella_page"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1364 156 523")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path "C:\USERS\PUBLIC\BABDO\SAVE\ARTICLE_CIRCUIT3\ARTICLE_CIRCUIT3.DSN")
+      (Schematic "s_cella_10")
+      (Page "s_cella_10_page"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1208 0 367")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path "C:\USERS\PUBLIC\BABDO\SAVE\ARTICLE_CIRCUIT3\ARTICLE_CIRCUIT3.DSN")
+      (Schematic "s_cella_11")
+      (Page "s_cella_11_page"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1234 26 393")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path "C:\USERS\PUBLIC\BABDO\SAVE\ARTICLE_CIRCUIT3\ARTICLE_CIRCUIT3.DSN")
+      (Schematic "s_cella_7")
+      (Page "s_cella_7_page"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1260 52 419")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path "C:\USERS\PUBLIC\BABDO\SAVE\ARTICLE_CIRCUIT3\ARTICLE_CIRCUIT3.DSN")
+      (Schematic "s_cella_8")
+      (Page "s_cella_8_page"))))
